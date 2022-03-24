@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+/* importo las fuentes a utilizar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* importo la libreria de iconos*/
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+* {
+    font-family: Roboto;    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.nav-bar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.barra-header{
+
+    display: flex;
+    flex-wrap: wrap;
+    color: #F3F3F3;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+.barra-header li{
+    list-style: none;
+    width: 85px;
+}
+
+
+
+section{
+    background: #E5E5E5;
+    display: flex;
+    width: 1024px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.caja{
+    width: 491px;
+    height: 350px;
+    
+}
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    border-radius: 5px; 
+}
+.p-delivery {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+}
+.comprando{
+    color: white;
+}
+
+.podio{
+    background: #FFFFFF;
+    border-radius: 5px;  
+}
+.p-podio {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+    text-align: center;
+}
+
+.tipos-pizzas{
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    padding: 0px 40px;
+    
+
+}
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+
+.caja2 {
+    display: flex;
+    
+    
+    padding: 85px 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pizzas-titulo{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+footer{
+    width: 1024px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.nav-bar2{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+
+.barra-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #F3F3F3;
+    padding: 20px 20px;
+    
+}
+.barra-footer li{
+    list-style: none;
+    
+}
+.nav-bar2 img{
+    padding: 35px 42px 35px
+}
