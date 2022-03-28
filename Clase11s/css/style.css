@@ -272,12 +272,90 @@ main{
     
 }
 
+/* ----------------------- SUSCRIPCION---------- */
 .suscripcion{
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    align-items: center;
     width: 1024px;
     height: 60px;
     background: #F0A83E;
 }
+
+
+.caja-sub {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    margin: 0px 20px;
+
+}
+
+
+
+
+.logo-enviar-correo{
+    
+    background-image: url(/img/enviar-correo\ 1.png);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.suscribete{
+    width: 288px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.boton-correo{
+    width: 340px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 9px;
+    color: #A0A0A0;
+    margin: 10px;
+
+
+}
+
+.boton-suscribirme {
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    padding: 11px;
+    font-weight: 400;
+    font-size: 9px;
+    color: #FFFFFF;
+    margin: 10px;
+    
+}
+
+
+
+
+
+
+
+
+/* ----------------------- FOOTER---------- */
 footer{
     display: flex;
     flex-direction: column;
